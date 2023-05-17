@@ -222,7 +222,7 @@ pub mod relay_chain_driven {
 		};
 
 		overseer_handle
-			.send_msg(CollationGenerationMessage::Initialize(config), "StartCollator")
+			.send_msg(CollationGenerationMessage::Reinitialize(config), "StartCollator")
 			.await;
 
 		overseer_handle
