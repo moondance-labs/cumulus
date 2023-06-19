@@ -21,32 +21,32 @@ tracing = "0.1.37"
 url = "2.3.1"
 
 # Substrate
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-frame-system-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-basic-authorship = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-chain-spec = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-network = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-tracing = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-transaction-pool-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-telemetry = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-arithmetic = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.40" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-trie = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
+frame-system = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+frame-system-rpc-runtime-api = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+pallet-transaction-payment = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-basic-authorship = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-chain-spec = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-client-api = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-consensus = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-executor = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-network = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-service = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-tracing = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-transaction-pool = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-transaction-pool-api = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-telemetry = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-arithmetic = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-blockchain = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-core = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-io = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-keyring = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-runtime = { git = "https://github.com/moondance-labs/substrate", default-features = false, branch = "tanssi-polkadot-v0.9.40" }
+sp-state-machine = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-tracing = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-timestamp = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-trie = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+substrate-test-client = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-cli = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
 
 # Polkadot
 polkadot-primitives = { git = "https://github.com/moondance-labs/polkadot", branch = "tanssi-polkadot-v0.9.40" }
@@ -79,8 +79,8 @@ portpicker = "0.1.1"
 polkadot-test-service = { git = "https://github.com/moondance-labs/polkadot", branch = "tanssi-polkadot-v0.9.40" }
 
 # Substrate dependencies
-sc-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-substrate-test-utils = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
+sc-cli = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+substrate-test-utils = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
 
 [features]
 runtime-benchmarks = ["polkadot-test-service/runtime-benchmarks"]

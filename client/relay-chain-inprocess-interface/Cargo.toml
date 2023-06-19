@@ -10,16 +10,16 @@ futures = "0.3.26"
 futures-timer = "3.0.2"
 
 # Substrate
-sc-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-telemetry = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-tracing = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sc-sysinfo = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
+sc-cli = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-client-api = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-telemetry = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-tracing = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sc-sysinfo = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-api = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-consensus = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-core = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-runtime = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
+sp-state-machine = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
 
 # Polkadot
 polkadot-cli = { git = "https://github.com/moondance-labs/polkadot", default-features = false, features = ["cli"], branch = "tanssi-polkadot-v0.9.40" }
@@ -33,7 +33,7 @@ cumulus-relay-chain-interface = { path = "../relay-chain-interface" }
 [dev-dependencies]
 
 # Substrate
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.40" }
+sp-keyring = { git = "https://github.com/moondance-labs/substrate", branch = "tanssi-polkadot-v0.9.40" }
 
 # Polkadot
 polkadot-primitives = { git = "https://github.com/moondance-labs/polkadot", branch = "tanssi-polkadot-v0.9.40" }
